@@ -12,7 +12,6 @@ import java.util.Set;
 public class ThreeSum {
 
   static void threeSum(int[] a) {
-    
     boolean found = false;
     Set<Integer> set = new HashSet<Integer>();
     for (int i = 0; i < a.length - 2; i++) {// need at least 3 elements to find a triplet.
